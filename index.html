@@ -28,58 +28,69 @@
             </div>
 
             <div class="sidebar flex justify-end">
-                <ul class="flex flex-col text-xl space-y-3 w-1/2">
-
-                    <li class="flex justify-start  items-center gap-3">
-                        <span class="material-symbols-outlined">home</span>
-                        Home
+                <ul class="flex flex-col text-2xl space-y-3 md:px-11 font-bold w-full  ">
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined"> home </span> <span
+                            class="hidden md:block">Home</span>
                     </li>
-
-                    <li class="flex justify-start  items-center gap-3">
-                        <span class="material-symbols-outlined">explore</span>
-                        Explore
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined"> search </span><span
+                            class="hidden md:block">Explore</span>
                     </li>
-
-                    <li class="flex justify-start  items-center gap-3">
-                        <span class="material-symbols-outlined">notifications</span>
-                        Notifications
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined"> notifications </span><span
+                            class="hidden md:block">Notifications</span>
                     </li>
-
-                    <li class="flex justify-start  items-center gap-3">
-                        <span class="material-symbols-outlined">auto_awesome</span>
-                        Grok
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined"> message </span><span
+                            class="hidden md:block">Grok</span>
                     </li>
-
-                    <li class="flex justify-start  items-center gap-3">
-                        <span class="material-symbols-outlined">list</span>
-                        Lists
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined"> lists </span><span
+                            class="hidden md:block">Lists</span>
                     </li>
-
-                    <li class="flex justify-start  items-center gap-3">
-                        <span class="material-symbols-outlined">bookmark</span>
-                        Bookmarks
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined"> bookmarks </span><span
+                            class="hidden md:block">Bookmarks</span>
                     </li>
-
-                    <li class="flex justify-start  items-center gap-3">
-                        <span class="material-symbols-outlined">groups</span>
-                        Communities
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined"> Groups </span><span
+                            class="hidden md:block">Communities</span>
                     </li>
-
-                    <li class="flex justify-start  items-center gap-3">
-                        <span class="material-symbols-outlined">workspace_premium</span>
-                        Premium
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined"> box </span><span
+                            class="hidden md:block">Premium</span>
                     </li>
-
-                    <li class="flex justify-start  items-center gap-3">
-                        <span class="material-symbols-outlined">person</span>
-                        Profile
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined"> person </span><span
+                            class="hidden md:block">Profile</span>
                     </li>
-
-                    <li class="flex justify-start  items-center gap-3">
-                        <span class="material-symbols-outlined">more_horiz</span>
-                        More
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined"> pending </span><span
+                            class="hidden md:block">More</span>
                     </li>
-
+                    <li>
+                        <div class="button w-full text-center my-4">
+                            <button
+                                class="hidden md:block bg-[#1d9bf0] px-20 text-xl rounded-full py-3 text-white">Post</button>
+                            <button
+                                class="md:hidden bg-[#1d9bf0]  px-2 md:px-4 text-xl rounded-full py-1 md:py-3 text-white">
+                                <span class="material-symbols-outlined">
+                                    edit
+                                </span>
+                            </button>
+                        </div>
+                    </li>
                 </ul>
             </div>
 
@@ -89,8 +100,72 @@
             bb
         </div>
 
-        <div class="third w-full">
-            cc
+        <div class="third w-full bg-red-5044">
+
+            <div class="search m-3">
+                <input type="text" class="w-1/2 rounded-full bg-gray-900 text-white px-4 py-2" placeholder="Search">
+
+
+            </div>
+
+            <div class="whats m-3 bg-gray-800 w-1/2 py-5 px-3 rounded-xl space-y-3">
+                <h1 class="text-xl font-bold px-3"> Whats Happening </h1>
+                <div class="item  px-3 p-3 hover:bg-gray-800 cursor-pointer ">
+                    <div class=" font-bold text-sm text-gray-700 "> Trending in India</div>
+                    <div class="font-bold">#Orry </div>
+                    <div class="text-sm text-gray-200">40.2k Posts</div>
+                </div>
+
+
+                <div class="item  px-3 p-3 hover:bg-gray-800 cursor-pointer ">
+                    <div class=" font-bold text-sm text-gray-700 "> Trending in India</div>
+                    <div class="font-bold">Segma</div>
+                    <div class="text-sm text-gray-200">40.2k Posts</div>
+                </div>
+
+
+                <div class="item  px-3 p-3 hover:bg-gray-800 cursor-pointer ">
+                    <div class=" font-bold text-sm text-gray-700 "> Trending in India</div>
+                    <div class="font-bold">#Omii</div>
+                    <div class="text-sm text-gray-200">40.2k Posts</div>
+                </div>
+
+
+                <div class="item  px-3 p-3 hover:bg-gray-800 cursor-pointer ">
+                    <div class=" font-bold text-sm text-gray-700 "> Trending in India</div>
+                    <div class="font-bold">#CodewithHarray</div>
+                    <div class="text-sm text-gray-200">40.2k Posts</div>
+                </div>
+
+                <div class="item  px-3 p-3 hover:bg-gray-800 cursor-pointer ">
+                    <div class=" font-bold text-sm text-gray-700 "> Trending in India</div>
+                    <div class="font-bold">#Java</div>
+                    <div class="text-sm text-gray-200">40.2k Posts</div>
+                </div>
+
+            </div>
+
+              <div class="who  m-3 bg-gray-800 w-1/2 py-5 px-3 rounded-xl space-y-3">
+                <h1 class="text-xl font-bold px-3"> Who to Follow </h1>
+                
+
+                
+
+                <div class="item  px-3 p-3 space-y-4">
+            
+                    <div class="font-bold  cursor-pointer">#CodewithHarray</div>
+                    <div class="font-bold cursor-pointer text-gray-200"> Om kale</div>
+                    <div class="font-bold cursor-pointer text-gray-200"> Sager Lokhande</div>
+                    <div class="font-bold cursor-pointer text-gray-200"> Shubhagi Lambhe</div>
+                    <div class="text-blue-600 px-3 underline my-5">Show More </div>
+                </div>
+
+               
+
+            </div>
+
+
+            
         </div>
 
     </div>
